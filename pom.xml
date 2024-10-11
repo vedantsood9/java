@@ -1,0 +1,23 @@
+project xmlns=httpmaven.apache.orgPOM4.0.0
+         xmlnsxsi=httpwww.w3.org2001XMLSchema-instance
+         xsischemaLocation=httpmaven.apache.orgPOM4.0.0 httpmaven.apache.orgmaven-v4_0_0.xsd
+    modelVersion4.0.0modelVersion
+
+    groupIdcom.examplegroupId
+    artifactIdhello-worldartifactId
+    version1.0-SNAPSHOTversion
+
+    build
+        plugins
+            plugin
+                groupIdorg.apache.maven.pluginsgroupId
+                artifactIdmaven-compiler-pluginartifactId
+                version3.8.1version
+                configuration
+                    source1.8source
+                    target1.8target
+                configuration
+            plugin
+        plugins
+    build
+project
